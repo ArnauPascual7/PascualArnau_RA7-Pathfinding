@@ -8,8 +8,8 @@ public static class Calculs
     public static void CalculateDistances(BoxCollider2D coll, float Size)
     {
         LinearDistance = coll.size.x / Size;
-        FirstPosition = new Vector2(-Size / 4f + LinearDistance / 2f - 0.1f,
-            Size / 4f - LinearDistance / 2f + 0.1f);
+        DiagonalDistance = LinearDistance * Mathf.Sqrt(2f);
+        FirstPosition = new Vector2(-Size / 4f + LinearDistance / 2f - 0.1f, Size / 4f - LinearDistance / 2f + 0.1f);
     }
     public static Vector2 CalculatePoint(int x, int y)
     {

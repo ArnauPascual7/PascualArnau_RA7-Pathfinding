@@ -287,7 +287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Size: 8
   Panel: {fileID: 1593313577}
-  token: {fileID: 0}
+  token: {fileID: 762362213633481467, guid: d17134a25efa0974991a0fb2f9cab3f0, type: 3}
+  blue: {fileID: 762362213633481467, guid: 34233190cd4b70b40a1089b9cb1684a7, type: 3}
 --- !u!4 &1495351874
 Transform:
   m_ObjectHideFlags: 0
@@ -315,7 +316,7 @@ GameObject:
   - component: {fileID: 1593313578}
   - component: {fileID: 1593313577}
   m_Layer: 0
-  m_Name: Board
+  m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
