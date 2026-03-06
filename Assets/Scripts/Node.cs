@@ -17,7 +17,7 @@ public class Node
     public float Heuristic { get => _heuristic; set { _heuristic = value; } }
     public Vector2 RealPosition { get => _realPosition; set { _realPosition = value; } }
     public Node NodeParent { get { return _nodeParent; } set => _nodeParent = value; }
-    public List<Way> WayList { get {  return _wayList; } set { _wayList = value; } }
+    public List<Way> NeighborWaysList { get {  return _wayList; } set { _wayList = value; } }
 
     #endregion
     public Node(int positionX, int positionY, Vector2 realPos)
